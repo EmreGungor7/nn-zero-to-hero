@@ -7,6 +7,7 @@ Andrej Karpathy'nin [Neural Networks: Zero to Hero](https://www.youtube.com/play
 | # | Konu | Notebook |
 |---|------|----------|
 | 1 | Backpropagation engine ve MLP | [01_micrograd.ipynb](./NeuralNetworks_ZerotoHero_1.ipynb) |
+| 2 | Karakter bazlı dil modeli (bigram) | [02_makemore_bigrams.ipynb](./02_makemore_bigrams.ipynb) |
 
 ### 1. Micrograd — Backpropagation Engine
 
@@ -16,9 +17,19 @@ Andrej Karpathy'nin [Neural Networks: Zero to Hero](https://www.youtube.com/play
 - Gradient descent ile eğitim
 - PyTorch karşılaştırması
 
+### 2. Makemore Part 1 — Bigram Modeli
+
+- Bigram istatistikleri ve sayım tablosu (N matrisi)
+- Olasılık dağılımı ve multinomial sampling
+- Sayım tabanlı yaklaşım vs Neural Network yaklaşımı
+- One-hot encoding ve softmax
+- Negative Log Likelihood (NLL) loss
+- Gradient descent ile W matrisini eğitme
+- Aha anı: iki yaklaşım aynı sonucu üretiyor
+
 ## Kaynaklar
 
-- [Karpathy'nin orijinal repo'su](https://github.com/karpathy/micrograd)
+- [Karpathy'nin orijinal repo'su](https://github.com/karpathy/nn-zero-to-hero)
 - [Video serisi (YouTube)](https://www.youtube.com/playlist?list=PLAdk-EyP1ND8MqJEJnSvaoUShrAWYe51U)
 
 ## Hakkımda
